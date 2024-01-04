@@ -1,0 +1,256 @@
+*{
+    margin: 0px;
+}
+main{
+    display: flex;
+}
+.mainl{
+    padding-top: 80px;
+    padding-left: 30px;
+    background-color: #f44336;
+    width: 25%;
+    position:fixed;
+    top: 0px;
+    overflow: auto;
+    overflow-y: auto;
+    overflow-x: auto;
+    height: 430px;
+}
+.mainl h1{
+    padding-left: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 90px;
+}
+.mainl a{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    text-decoration: none;
+    font-size: 23px;
+    color: white;
+    font-weight: bolder;
+
+}
+.a1{
+    padding-right: 176px;
+}
+.a2{
+    padding-right: 130px;
+}
+.a3{
+    padding-right: 153px;
+}
+.a4{
+    padding-right: 138px;
+}
+.a5{
+    padding-right: 143px;
+}
+.a6{
+    padding-right: 155px;
+}
+.mainl a:hover{
+    background-color: white;
+    color: black;
+}
+.mainr{
+    padding-left: 50px;
+    border: 2px solid black;
+    margin-left:293px;
+    width: 75%;
+    background-color: white;
+}
+.mainr h1{
+    padding-top: 80px;
+    font-size: 75px;
+    font-family:"Poppins", sans-serif ;
+}
+hr{
+    background-color: red;
+    width: 60px;
+    height: 7px;
+    border-radius:4px ;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+.mainr h2{
+  color:  #f44336;
+  font-size: 48px;
+  font-family:"Poppins", sans-serif ;
+}
+.imges{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 17px;
+    vertical-align: sub;
+    margin-bottom: 90px;
+    
+}
+img{
+    width: 45%;
+    opacity: 0.8;
+}
+img:hover{
+    opacity: 100%;
+}
+.mainr p{
+    width: 90%;
+    font-size: 18px;
+    font-family:"Poppins", sans-serif ;
+    margin-bottom: 100px;
+    
+}
+.surat{
+    width: 100%;
+   display: flex;
+   gap: 15px;
+   margin-bottom: 100px;
+}
+.surato img{
+    width: 100%;
+    height: 150px;
+    opacity: 100%;
+}
+.surato{
+    width: 30%;
+    background-color: #f1f1f1;
+    height: 400px;
+}
+.surat h2{
+    padding-left: 15px;
+    font-size: 28px;
+    color: black;
+    font-weight: lighter;
+    padding-bottom: 17px;
+    padding-top: 10px;
+    font-family: "Poppins", sans-serif;
+}
+.surat h4{
+    padding-left: 15px;
+    color:black;
+    opacity: 40%;
+    font-size: 16px;
+    font-weight: lighter;
+    padding-bottom: 17px;
+}
+.surat p{
+    padding-left: 15px;
+
+}
+.yawik{
+    margin-bottom: 100px;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+.yawik1{
+    width: 45%;
+    background-color: #f1f1f1
+}
+.bolo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: #616161;
+}
+.bolo h1{
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    font-weight: lighter;
+    margin-bottom: 20%;
+}
+ .yawik h3{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: auto;
+    font-weight: 500;
+    border-bottom: 1px solid #ddd;
+}
+.yawik h2{
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-weight: lighter;
+}
+.yawik span{
+    font-size: medium;
+    opacity: 80%;
+}
+.poyon{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.poyon a{
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    padding: 15px 35px;
+}
+.p2{
+    background-color: white;
+}
+.b1{
+    background-color: #f44336;
+}
+.poyon .p1{
+    background-color: #f44336; 
+    color: white;
+}
+.poyon a:hover{
+     background-color: black;
+     color: white;
+}
+.po{
+    margin-bottom: 0px;
+}
+form{
+    margin-bottom: 50px;
+    width: 100%;
+}
+input{
+    width: 90%;
+    height: 40px;
+}
+label{
+    font-size: 25px;
+}
+button{
+    padding-top: 10px;
+    font-size: 25px;
+    width: 90%;
+    background-color: #f44336   ;
+}
+button:hover{
+    background-color: #616161;
+    color: white;
+}
+ h6{
+    width: 90%;
+    font-size: 20px;
+ }
+ footer{
+  width: 100%;
+  background-color: #f1f1f1;
+  height: 100px;
+  display: flex;
+  align-items: center;
+ 
+ }
+ footer span{
+ margin-left: 520px;
+ }
+ footer a{
+    
+    color: black;
+ }

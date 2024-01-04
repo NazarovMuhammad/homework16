@@ -1,0 +1,7 @@
+@media (max-width: 5000px) {
+    main{
+        flex-wrap: wrap;
+    }
+    
+    
+}
